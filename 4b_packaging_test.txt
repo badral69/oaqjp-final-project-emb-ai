@@ -1,0 +1,7 @@
+$ python3 -c "
+import EmotionDetection
+print(EmotionDetection)
+print(dir(EmotionDetection))
+"
+<module 'EmotionDetection' from '/home/project/oaqjp-final-project-emb-ai/EmotionDetection/__init__.py'>
+['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', 'emotion_detection', 'emotion_detector']
