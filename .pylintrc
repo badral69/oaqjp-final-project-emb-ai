@@ -1,0 +1,3 @@
+[BASIC]
+# Allow PascalCase package names (e.g. EmotionDetection)
+module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
