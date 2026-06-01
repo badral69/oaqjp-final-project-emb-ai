@@ -1,0 +1,18 @@
+$ python3 -m unittest test_emotion_detection -v
+test_anger_for_angry_statement (test_emotion_detection.TestEmotionDetector.test_anger_for_angry_statement)
+Anger should be the dominant emotion for an angry statement. ... ok
+test_blank_input_returns_none (test_emotion_detection.TestEmotionDetector.test_blank_input_returns_none)
+Blank input should return None values for all emotions. ... ok
+test_disgust_for_disgusting_statement (test_emotion_detection.TestEmotionDetector.test_disgust_for_disgusting_statement)
+Disgust should be the dominant emotion for a disgusting statement. ... ok
+test_fear_for_fearful_statement (test_emotion_detection.TestEmotionDetector.test_fear_for_fearful_statement)
+Fear should be the dominant emotion for a fearful statement. ... ok
+test_joy_for_happy_statement (test_emotion_detection.TestEmotionDetector.test_joy_for_happy_statement)
+Joy should be the dominant emotion for a happy statement. ... ok
+test_sadness_for_sad_statement (test_emotion_detection.TestEmotionDetector.test_sadness_for_sad_statement)
+Sadness should be the dominant emotion for a sad statement. ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
